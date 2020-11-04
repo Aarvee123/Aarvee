@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body bgcolor="blue">
+	<div style="background:#f5425a">
+		<center>
+			<h1>Shishukunj email registration</h1>
+		</center>
+	</div>
+	<center>
+   <form action="output.html" method="post">
+<label>Email id</label>
+<input type="text" name="" placeholder="Enter email id">
+<br>
+<label>Password</label>
+<input type="Password" name="" placeholder="Enter Password">
+<br>
+<h1>Grade</h1>
+<label>1st-6th grade</label>
+<input type="radio" name="Grade" value="1st-6th grade">
+<label>7th-12th grade</label>
+<input type="radio" name="Grade" value="7th-12th grade">
+<br>
+<h2>How would you like to do ur payment?</h2>
+<select name="pmode">
+<option value="">Choose payment method</option>
+<option value="Paytm">Paytm</option>
+<option value="ccard">Credit card</option>
+<option value="PhonePe">PhonePe</option>
+<option value="dcard">Debit Card</option>
+</select>
+<h3>Choose your known Languages</h3>
+<input type="checkbox" name="Languages" value="English" checked="">English<br>
+<input type="checkbox" name="Languages" value="Hindi" checked="">Hindi<br>
+<input type="checkbox" name="Languages" value="French" checked="">French<br>
+<input type="checkbox" name="Languages" value="Spanish" checked="">Spanish<br>
+<input type="checkbox" name="Languages" value="German" checked="">German<br>
+<br>
+<textarea name="Feedback" rows="7" cols="50"></textarea><br>
+<input type="submit" name="registration">
+</center>
+</form>
+</body>
+</html> 
